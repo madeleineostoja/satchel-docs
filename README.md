@@ -17,6 +17,7 @@ Satchel is a tiny collection of JavaScript utilities designed to be used in CSS-
 * [Aspect-ratio tools](aspect.md)
 * [Color transforms](color.md)
 * [Font importer](font.md)
+* [Typography helpers](typography.md)
 * [Positioning shorthands](position.md)
 * [Range element abstractions](range.md)
 * [Clearfix](clearfix.md)
