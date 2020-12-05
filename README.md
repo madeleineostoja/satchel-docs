@@ -5,7 +5,7 @@ title: Aspect ratio
 
 # Introducing Satchel
 
-Satchel is a tiny collection of JavaScript utilities designed to be used in CSS-in-JS. ****It automates common patterns, saves time, encourages consistency, and makes developers' lives easier.
+Satchel is a collection of CSS-in-JS utilities. ****It automates common patterns, saves time, encourages consistency, and makes developers' lives easier.
 
 ### Features
 
