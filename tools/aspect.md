@@ -6,7 +6,7 @@ description: >-
 
 # Aspect
 
-### `aspect(x, y, options?)`
+## `aspect(x, y, options?)`
 
 | `Argument` | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
@@ -31,7 +31,7 @@ import { aspect } from 'satchel-css';
 `${aspect(16,9, { mode: 'lite' })}`
 ```
 
-### Absolute boxes
+## Absolute boxes
 
 By default `aspect` absolutely positions direct children to ensure boxes retain their aspect ratio
 
@@ -62,9 +62,9 @@ position: relative;
 {% endtab %}
 {% endtabs %}
 
-### Expandable boxes
+## Expandable boxes
 
-By setting `mode` to  `'expandable'` will allow children to expand the box vertically. This is achieved with a dummy `::before` element to set an initial height.
+By setting `mode` to `'expandable'` will allow children to expand the box vertically. This is achieved with a dummy `::before` element to set an initial height.
 
 {% tabs %}
 {% tab title="Code" %}
@@ -92,7 +92,7 @@ aspect(16, 9, { mode: 'expandable' });
 {% endtab %}
 {% endtabs %}
 
-### Minimal output
+## Minimal output
 
 If you want to handle your own layout logic for aspect ratios, set `mode` to `lite` to just output the `padding-top` offset.
 

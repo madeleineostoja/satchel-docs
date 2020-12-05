@@ -6,7 +6,7 @@ description: >-
 
 # Range
 
-### ``range.track`{styles}```  and ``range.thumb`{styles}```
+## ````range.track`{styles}```  and````range.thumb\`{styles}\`\`\`
 
 Applies styles to the track \(ie: the ‘line’\) and thumb \(ie: the ‘button’\) of a range input respectively;
 
@@ -30,7 +30,7 @@ const rangeInput = css`
 `;
 ```
 
-### How it works
+## How it works
 
 The range mixins apply your styles to vendor-specific pseudo elements offered and reset browser defaults where necessary.
 

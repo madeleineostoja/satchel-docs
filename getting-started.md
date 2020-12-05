@@ -6,7 +6,7 @@ description: What you need to know
 
 All of Satchel’s utilities return plain strings, so they work almost everywhere. The only prerequisite is that your environment supports [nested CSS selectors](https://tabatkins.github.io/specs/css-nesting/#nest-selector). Popular CSS-in-JS frameworks like [styled-components](https://styled-components.com/), [Emotion](https://emotion.sh/), [Linaria](https://linaria.now.sh/), and any other tool built on top of the [Stylis](https://github.com/thysultan/stylis.js) preprocessor work out of the box.
 
-### Installation
+## Installation
 
 Install Satchel from NPM
 
@@ -14,7 +14,7 @@ Install Satchel from NPM
 npm i satchel-css
 ```
 
-#### Alternatively include Satchel from a CDN
+### Alternatively include Satchel from a CDN
 
 If you’re not using a module bundler you can also link to Satchel directly on the [unpkg](https://unpkg.com/) CDN. Add the following `<script>` tag to the bottom of your HTML:
 
@@ -32,7 +32,7 @@ const buttonStyles = `
 `;
 ```
 
-### Usage
+## Usage
 
 Import Satchel’s utilities embed them in CSS template strings by wrapping them in `${ }` braces.
 

@@ -6,16 +6,14 @@
 
 ## Tools
 
----
-
-* [Normalize](normalize.md)
-* [Reset](reset.md)
-* [Fluid](fluid.md)
-* [Grids](grids.md)
-* [Aspect](aspect.md)
-* [Color](color.md)
-* [Font](font.md)
-* [Position](position.md)
-* [Range](range.md)
-* [Clearfix](clearfix.md)
+* [Normalize](tools/normalize.md)
+* [Reset](tools/reset.md)
+* [Fluid](tools/fluid.md)
+* [Grids](tools/grids.md)
+* [Aspect](tools/aspect.md)
+* [Color](tools/color.md)
+* [Font](tools/font.md)
+* [Position](tools/position.md)
+* [Range](tools/range.md)
+* [Clearfix](tools/clearfix.md)
 

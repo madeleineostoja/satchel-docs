@@ -20,7 +20,7 @@ description: >-
 
 Sets a fluid value for a property based on property name and min and max values. It has sane defaults for upper and lower viewport constraints, but you can also adjust these by setting `minScreenSize` and `maxScreenSize` in `options`.
 
-![Fluid font size based on viewport size](.gitbook/assets/demo.gif)
+![Fluid font size based on viewport size](../.gitbook/assets/demo.gif)
 
 Values can be in any standard CSS unit.
 

@@ -4,7 +4,7 @@ description: Work more easily with web fonts.
 
 # Font
 
-### `fontFace(name, files, opts?)`
+## `fontFace(name, files, opts?)`
 
 Generates `@font-face` rules from an array of font files. Since `@font-face` declarations are global, you should use `fontFace()` with a global CSS helper from your CSS-in-JS library of choice.
 
@@ -58,7 +58,7 @@ You can of course also provide paths to file paths as plain strings if you don't
 fontFace('My Font', ['/path/to/my-font.woff2']);
 ```
 
-### Options
+## Options
 
 You can set `font-weight`, `font-style`, and `font-display` by passing `options` to `fontFace`.
 

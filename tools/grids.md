@@ -7,7 +7,7 @@ description: >-
 
 # Grids
 
-### `flexGrid(gutter)`
+## `flexGrid(gutter)`
 
 | `Argument` | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
@@ -45,7 +45,7 @@ margin: calc(0px - (2rem / 2));
 {% endtab %}
 {% endtabs %}
 
-### `subgrid`
+## `subgrid`
 
 A simple mixin for shimming the missing `display: subgrid` behaviour from CSS grids, by making an element inherit its parent's grid. This is a basic shim that only works for full-width children, it can't account for partial subgrids.
 
@@ -73,7 +73,7 @@ grid-template-columns: inherit;
 We use `1 / 99` for `grid-column` because IE11 doesn’t understand the `x / -1` syntax for extending to the final column
 {% endhint %}
 
-### `msGridRows(n)`
+## `msGridRows(n)`
 
 | `Argument` | Type | Default | Description |
 | :--- | :--- | :--- | :--- |

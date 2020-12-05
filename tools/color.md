@@ -4,7 +4,7 @@ description: Use Satchel’s color functions to convert between RGBA and hex val
 
 # Color
 
-### `rgba(hex, alpha)`
+## `rgba(hex, alpha)`
 
 Generates the RGBA value of a hex code with an alpha channel.
 
@@ -14,7 +14,7 @@ import { rgba } from 'satchel-css';
 `background: ${rgba('#ea356b', 0.75)};`;
 ```
 
-### `hex(r,g,b)`
+## `hex(r,g,b)`
 
 Generates the hex code for an RGB color value.
 

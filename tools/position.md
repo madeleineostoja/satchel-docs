@@ -6,7 +6,7 @@ description: >-
 
 # Position
 
-### `position(position, values)`
+## `position(position, values)`
 
 Creates a `position` ruleset from a shorthand values string. It can take any valid CSS position property, and the values string follows the same rules as [margin and padding shorthand properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties#Margin_and_Padding_Properties).
 
@@ -16,7 +16,7 @@ import { position } from 'satchel-css';
 `${position('absolute', '0 2rem')}`;
 ```
 
-### Shorthand values
+## Shorthand values
 
 Satchel’s position helper uses the same logic as CSS’s margin and padding shorthands to set `top`, `right`, `bottom`, and `left` properties.
 

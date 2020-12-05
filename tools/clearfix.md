@@ -4,7 +4,7 @@ description: Apply a clearfix with a simple mixin
 
 # Clearfix
 
-#### `clearfix`
+## `clearfix`
 
 {% tabs %}
 {% tab title="Code" %}
