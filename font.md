@@ -6,6 +6,14 @@ description: Work more easily with web fonts.
 
 ### `fontFace(name, files, opts?)`
 
+| `Argument` | Type | Description |
+| :--- | :--- | :--- |
+| `name` | `string` | Name of the font family |
+| `files` | `string[]` | Array of paths to font files |
+| `opts` | `object` | Font options — `style`, `weight`, and `display` |
+
+Quickly create flex-based grids, using padding on children and negative margins on the parent element to achieve consistent gutters.
+
 Generates `@font-face` rules from an array of font files. Since `@font-face` declarations are global, you should use `fontFace()` with a global CSS helper from your CSS-in-JS library of choice.
 
 {% tabs %}

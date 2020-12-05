@@ -15,6 +15,7 @@
 * [Aspect](aspect.md)
 * [Color](color.md)
 * [Font](font.md)
+* [Typography](typography.md)
 * [Position](position.md)
 * [Range](range.md)
 * [Clearfix](clearfix.md)
