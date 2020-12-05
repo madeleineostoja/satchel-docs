@@ -10,7 +10,7 @@ Install Satchel from NPM
 npm i satchel-css
 ```
 
-#### Alternatively include Satchel from a CDN
+#### Alternatively include from a CDN
 
 If you’re not using a module bundler you can also link to Satchel directly on the [unpkg](https://unpkg.com/) CDN. Add the following `<script>` tag to the bottom of your HTML:
 
