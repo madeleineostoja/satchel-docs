@@ -1,7 +1,6 @@
 ---
 uid: aspect
 title: Aspect ratio
-description: The little bag of CSS-in-JS superpowers
 ---
 
 # Introducing Satchel
