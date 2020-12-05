@@ -18,7 +18,7 @@ When creating an issue, try to be as detailed as possible. If you’re reporting
 
 ### Submit a PR
 
-If there’s an existing issue you’d like to solve, we’d love your help! Fork the [Github repository](https://github.com/peppercornstudio/satchel) and open a pull request.
+If there’s an existing issue you’d like to solve, I'd love your help! Fork the [Github repository](https://github.com/peppercornstudio/satchel) and open a pull request.
 
-Before submitting a PR make sure you’re either addressing an open issue, or have previously discussed the feature or code you’re adding. That way we make sure that your hard work won’t go to waste in case we can’t accept the PR.
+Before submitting a PR make sure you’re either addressing an open issue, or have previously discussed the feature or code you’re adding. That way we make sure that your hard work won’t go to waste in case I can’t accept the PR.
 
