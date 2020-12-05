@@ -1,7 +1,3 @@
----
-description: What you need to know
----
-
 # Getting Started
 
 All of Satchel’s utilities return plain strings, so they work almost everywhere. The only prerequisite is that your environment supports [nested CSS selectors](https://tabatkins.github.io/specs/css-nesting/#nest-selector). Popular CSS-in-JS frameworks like [styled-components](https://styled-components.com/), [Emotion](https://emotion.sh/), [Linaria](https://linaria.now.sh/), and any other tool built on top of the [Stylis](https://github.com/thysultan/stylis.js) preprocessor work out of the box.
