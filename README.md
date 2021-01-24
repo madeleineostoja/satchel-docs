@@ -28,5 +28,3 @@ Pollen is a lightweight library of functional CSS variables you can use anywhere
 **Get Pollen 👉** [**pollen.style**](https://pollen.style)\*\*\*\*
 {% endhint %}
 
-**Made with ❤️ by** [**Peppercorn Studio**](https://peppercorn.studio) **in 🥝**
-
