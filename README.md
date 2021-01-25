@@ -6,7 +6,7 @@ description: The little bag of CSS-in-JS superpowers
 
 # Introducing Satchel
 
-Satchel is a collection of CSS-in-JS utilities. ****It automates common patterns, saves time, encourages consistency, and makes developers' lives easier.
+Satchel is a collection of CSS-in-JS utilities. ****It automates common patterns, saves time, encourages consistency, and makes developers' lives easier. 
 
 ### Features
 
