@@ -51,6 +51,46 @@ position: relative;
   right: 0;
   bottom: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
+}
+&::before {
+  content: '';
+  display: block;
+  padding-top: 56.25%;
+  position: relative;
+}
+```
+{% endtab %}
+{% endtabs %}
+
+### Images
+
+Setting `mode` to  `'image'` behaves the same as `'absolute'`  but with some additional styles for aspect-ratio images.
+
+{% tabs %}
+{% tab title="Code" %}
+```javascript
+aspect(16, 9, { mode: 'image' });
+```
+{% endtab %}
+
+{% tab title="Output CSS" %}
+```css
+position: relative;
+overflow: hidden;
+& > * {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+& > img {
+  object-fit: cover;
+  object-position: center;
 }
 &::before {
   content: '';
@@ -64,7 +104,7 @@ position: relative;
 
 ### Expandable boxes
 
-By setting `mode` to  `'expandable'` will allow children to expand the box vertically. This is achieved with a dummy `::before` element to set an initial height.
+Setting `mode` to  `'expandable'` will allow children to expand the box vertically. This is achieved with a dummy `::before` element to set an initial height.
 
 {% tabs %}
 {% tab title="Code" %}
@@ -92,14 +132,14 @@ aspect(16, 9, { mode: 'expandable' });
 {% endtab %}
 {% endtabs %}
 
-### Minimal output
+### Lite output
 
 If you want to handle your own layout logic for aspect ratios, set `mode` to `lite` to just output the `padding-top` offset.
 
 {% tabs %}
 {% tab title="Code" %}
 ```javascript
-aspect(16, 9, { mode: 'minimal' });
+aspect(16, 9, { mode: 'lite' });
 ```
 {% endtab %}
 
